@@ -6,8 +6,8 @@ rule Backdoorloosedemo4strings
 		   
 		   strings:
 		     
-			   $a=  "%SystemRoot%\System32\svchost.exe -k imgsvc"
-			         
+			   $a=  "=#=/=4=>=G=Q=_=i=v="
+			    $b= "<!<-<6<H<M<T<[<c<m<"     
 					 
               
 			 

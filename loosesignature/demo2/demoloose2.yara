@@ -7,7 +7,7 @@ rule Backdoorloosedemo2strings
 		   strings:
 		    $a= "Len < SrcMz->e_lfanew + (long)sizeof(IMAGE_NT_HEADERS)"
 			
-             $b= "SrcPeH->FileHeader.Characteristics & IMAGE_FILE_DLL)"             
+             $b= "??2@YAPAXI@Z"             
 			 $c= "= @@" 
 			 
 			 condition:

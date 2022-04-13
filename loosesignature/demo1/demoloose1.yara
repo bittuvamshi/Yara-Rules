@@ -6,7 +6,7 @@ rule Backdoorstrings
 		   
 		   strings:
 		    
-		    $a= "SYSTEM\CurrentControlSet\Services\RemoteAccess\RouterManagers\Ip"
+		     $a= "RegDeleteKey"
 		    $b= "WS2_32.dll"
 			
               

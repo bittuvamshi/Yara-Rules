@@ -1,19 +1,19 @@
 rule Backdoorstrings
 {
          meta: 
-		   owner="vamshi"
-		   malware="backdoor sample"
+		     owner="vamshi"
+		     malware="backdoor sample"
 		   
-		   strings:
+      strings:
 		    
-		     $a= "RegDeleteKey"
-		    $b= "WS2_32.dll"
-			
-              
-	     
-	  
-			 
-			 condition:
-			  ($a and $b)
-			 
+		    $a="ShellExecute"
+		     
+                    $b= "RegDeleteKey"
+		   
+		     $c= "WS2_32.dll"
+		 		 
+    condition:
+		
+		($a and $b and $c)
+						 
 }

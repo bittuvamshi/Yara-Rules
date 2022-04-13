@@ -8,9 +8,11 @@ rule Backdoorstrings
 		    $a= "WS2_32.dll"
 			
              $b="L$(QU"
+	     
+	     $c="WSOCK32.dll"
              
 			 
 			 condition:
-			  ($a and $b)
+			  ($a and $b and $c)
 			 
 }

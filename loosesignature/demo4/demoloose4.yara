@@ -6,17 +6,15 @@ rule Backdoorloosedemo4strings
 		   
 		   strings:
 		     
-			   $a=  "=#=/=4=>=G=Q=_=i=v="
-			    $b= "<!<-<6<H<M<T<[<c<m<"     
+			   $a= "ShellExecute"
 					 
-              
+              $b= "kwur9*-qus/achfs,`lo.hs(vyv"
 			 
 			 
 			 condition:
 			  ($a and $b)
 			 
 } 
-
 
 
 

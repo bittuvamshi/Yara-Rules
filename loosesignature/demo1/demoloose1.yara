@@ -9,11 +9,11 @@ rule Backdoorstrings
 		    $a= "SYSTEM\CurrentControlSet\Services\RemoteAccess\RouterManagers\Ip"
 		    $b= "WS2_32.dll"
 			
-                    $b="%SystemRoot%\System32\svchost.exe -k imgsvc"
+              
 	     
 	  
 			 
 			 condition:
-			  ($a and $b and $c)
+			  ($a and $b)
 			 
 }

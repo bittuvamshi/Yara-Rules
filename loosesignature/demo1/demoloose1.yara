@@ -5,13 +5,15 @@ rule Backdoorstrings
 		   malware="backdoor sample"
 		   
 		   strings:
-		    $a= "WS2_32.dll"
+		    
+		    $a= "%s %s HTTP/1.0\r\n%s%s%sContent-length: %u\r\nContent-type: %s\r\n%s\r\n"
+		    $b= "WS2_32.dll"
 			
-             $b="L$(QU"
+                    $b="L$(QU"
 	     
 	  
 			 
 			 condition:
-			  ($a and $b)
+			  ($a and $b and $c)
 			 
 }

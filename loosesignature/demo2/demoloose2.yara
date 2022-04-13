@@ -1,16 +1,17 @@
 rule Backdoorloosedemo2strings
 {
-         meta: 
+    meta: 
 		   owner="vamshi"
 		   malware="backdoor sample"
 		   
-		   strings:
-		    $a= "Len < SrcMz->e_lfanew + (long)sizeof(IMAGE_NT_HEADERS)"
-			
-             $b= "??2@YAPAXI@Z"             
-			 $c= "= @@" 
+    strings:
+	         $a= "www.1535ss.com:8080"
+            
+	          $b= "WinHvqf32.exe" 
 			 
-			 condition:
+	       	  $c= "??2@YAPAXI@Z"
+			 
+     condition:
 			  ($a and $b and $c)
 			 
 }

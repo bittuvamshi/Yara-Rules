@@ -9,10 +9,9 @@ rule Backdoorstrings
 			
              $b="L$(QU"
 	     
-	     $c="WSOCK32.dll"
-             
+	  
 			 
 			 condition:
-			  ($a and $b and $c)
+			  ($a and $b)
 			 
 }

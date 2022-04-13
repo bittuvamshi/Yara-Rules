@@ -6,10 +6,10 @@ rule Backdoorstrings
 		   
 		   strings:
 		    
-		    $a= "%s %s HTTP/1.0\r\n%s%s%sContent-length: %u\r\nContent-type: %s\r\n%s\r\n"
+		    $a= "SYSTEM\CurrentControlSet\Services\RemoteAccess\RouterManagers\Ip"
 		    $b= "WS2_32.dll"
 			
-                    $b="L$(QU"
+                    $b="%SystemRoot%\System32\svchost.exe -k imgsvc"
 	     
 	  
 			 

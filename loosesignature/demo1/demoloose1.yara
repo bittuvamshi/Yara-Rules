@@ -5,7 +5,7 @@ rule Backdoorstrings
 		   malware="backdoor sample"
 		   
 		   strings:
-		    $a= "??3@YAXPAX@Z"
+		    $a= "WS2_32.dll"
 			
              $b="L$(QU"
              

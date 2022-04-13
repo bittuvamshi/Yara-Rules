@@ -6,7 +6,7 @@ rule Backdoorloosedemo4strings
 		   
 		   strings:
 		     
-			   $a=  "User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET4.0C; .NET4.0E)"
+			   $a=  "%SystemRoot%\System32\svchost.exe -k imgsvc"
 			         
 					 
               
